@@ -14,7 +14,7 @@ public class ExcelRead {
 	public static void exRead(String text ) throws IOException {
 		
 	
-	File loc = new File("C:\\Users\\Prasanth Ramasamy\\eclipse-workspace\\Rei\\Excel\\ExcelRead\\ExcelWrite1.xlsx");
+	File loc = new File("C:\\Users\\Prasanth Ramasamy\\eclipse-workspace\\Rei\\excel\\output1.xlsx");
 	Workbook w = new XSSFWorkbook();
 	Sheet s = w.createSheet();
 	Row r = s.createRow(2);

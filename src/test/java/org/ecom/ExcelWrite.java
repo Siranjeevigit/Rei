@@ -20,7 +20,7 @@ public class ExcelWrite
 	//public static void main(String[] args) throws Throwable {
 		
 		
-	File d = new File("C:\\Users\\Prasanth Ramasamy\\eclipse-workspace\\maven1stproject\\ExcelRead\\ExcelRead.xlsx");
+	File d = new File("C:\\Users\\Prasanth Ramasamy\\eclipse-workspace\\Rei\\Excel\\ExcelRead\\ExcelWrite1.xlsx");
 		
 		FileInputStream f = new FileInputStream(d);
 		
@@ -61,7 +61,3 @@ public class ExcelWrite
 
 	}
 }
-
-
-
-
